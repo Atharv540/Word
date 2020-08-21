@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#document{
+  resize:none;
+  outline: none;
+}
+#bgColor{
+  outline: none;
+}
+#textColor{
+  outline: none;
+}
+#document:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#textColor:hover{
+  background-color:grey;
+  transition-duration:0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#bgColor:hover{
+  background-color:grey;
+  transition-duration:0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#reset{
+  border-radius: 0%;
+  border: 2px solid grey;
+  background-color: white;
+  padding: 5px 15px;
+  margin: 4px 2px;
+  outline: none;
+}
+#reset:hover{
+  background-color:grey;
+  color: white;
+  transition-duration:0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#bold{
+  border-radius: 0%;
+  border: 2px solid grey;
+  background-color: white;
+  outline: none;
+}
+#bold:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#italic{
+  border-radius: 0%;
+  border: 2px solid grey;
+  background-color: white;
+  outline: none;
+}
+#italic:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#case{
+  font-family: "Calibri";
+  background-color: grey;
+  color: black;
+}
+::selection{
+      background-color: rgb(0, 191, 255);
+    }
+#q{
+  border-radius: 0%;
+  border: 2px solid grey;
+  background-color: white;
+  outline: none;
+}
+#q:hover{
+  background-color:grey;
+  color: white;
+  transition-duration:0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#i{
+  border-radius: 0%;
+  border: 2px solid grey;
+  background-color: white;
+  outline: none;
+}
+#i:hover{
+  background-color:grey;
+  color: white;
+  transition-duration:0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#case:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#countW{
+  font-family: "calibri";
+  background-color: grey;
+  border: none;
+  outline: none;
+}
+#dot{
+  border-radius: 0%;
+  border: 2px solid grey;
+  background-color: white;
+  outline: none;
+}
+#dot:hover{
+  background-color:grey;
+  color: white;
+  transition-duration:0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#speak{
+  border-radius: 0%;
+  border: 2px solid grey;
+  background-color: white;
+  padding: 5px 15px;
+  margin: 4px 2px;
+  outline: none;
+}
+#speak:hover{
+  background-color:grey;
+  color: white;
+  transition-duration:0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#voices{
+  border-radius: 0px;
+  background-color: grey;
+  font-family: "Calibri";
+}
